@@ -29,6 +29,26 @@ button:hover {
 .card-grid {
   margin-top: 0px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto auto;
   grid-gap: 20px;
+}
+
+@media(max-width: 870px) {
+  .card-grid {
+    padding: 0 10px;
+  }
+}
+
+@media(max-width: 466px) {
+  .brand {
+    font-size: medium;
+  }
+
+  .card-grid {
+    margin-top: 40px;
+  }
+
+  .navbar {
+    margin-top: 10px;
+  }
 }

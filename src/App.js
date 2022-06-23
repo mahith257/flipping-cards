@@ -79,7 +79,7 @@ function App() {
   return (
     <div className="App">
       <div className='navbar'>
-        <h1 style={{marginRight: 'auto'}}>Flipping Cards</h1>
+        <h1 style={{marginRight: 'auto'}} className='brand'>Flipping Cards</h1>
         <div>
           <span style={{fontSize: '1.2em'}}>Turns: {turns}</span>
           <button onClick={shuffleCards}>New Game</button>
